@@ -1,11 +1,11 @@
 # datenbankvergleich
 Comparaison de bases de données / Vergleich der Datenbanken / Comparison of databases
 
-# the information is taken from these source: [Kristof Kovacs](https://kkovacs.eu/cassandra-vs-mongodb-vs-couchdb-vs-redis).
-# Die Information wurde aus dieser Quelle: [Kristof Kovacs](https://kkovacs.eu/cassandra-vs-mongodb-vs-couchdb-vs-redis) gebracht.
-# L'information a été prise de cette source: [Kristof Kovacs](https://kkovacs.eu/cassandra-vs-mongodb-vs-couchdb-vs-redis).
+1 the information is taken from these source: [Kristof Kovacs](https://kkovacs.eu/cassandra-vs-mongodb-vs-couchdb-vs-redis).
+1 Die Information wurde aus dieser Quelle: [Kristof Kovacs](https://kkovacs.eu/cassandra-vs-mongodb-vs-couchdb-vs-redis) gebracht.
+1 L'information a été prise de cette source: [Kristof Kovacs](https://kkovacs.eu/cassandra-vs-mongodb-vs-couchdb-vs-redis).
 
-# his [github](https://github.com/kkovacs).
+1 his [github](https://github.com/kkovacs).
 
 - [redis](#redis)
 - [mongodb](#mongodb)
