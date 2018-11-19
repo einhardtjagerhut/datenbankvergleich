@@ -1,13 +1,31 @@
 # datenbankvergleich
 Comparaison de bases de données / Vergleich der Datenbanken / Comparison of databases
 
-the information is taken from these source: [Kristof Kovacs](https://kkovacs.eu/cassandra-vs-mongodb-vs-couchdb-vs-redis).
-Die Information wurde aus dieser Quelle: [Kristof Kovacs](https://kkovacs.eu/cassandra-vs-mongodb-vs-couchdb-vs-redis) gebracht.
-L'information a été prise de cette source: [Kristof Kovacs](https://kkovacs.eu/cassandra-vs-mongodb-vs-couchdb-vs-redis).
+# the information is taken from these source: [Kristof Kovacs](https://kkovacs.eu/cassandra-vs-mongodb-vs-couchdb-vs-redis).
+# Die Information wurde aus dieser Quelle: [Kristof Kovacs](https://kkovacs.eu/cassandra-vs-mongodb-vs-couchdb-vs-redis) gebracht.
+# L'information a été prise de cette source: [Kristof Kovacs](https://kkovacs.eu/cassandra-vs-mongodb-vs-couchdb-vs-redis).
 
-his [github](https://github.com/kkovacs).
+# his [github](https://github.com/kkovacs).
 
-## Redis (V3.2)
+- [redis](#redis)
+- [mongodb](#mongodb)
+- [cassandra](#cassandra)
+- [elasticsearch](#elasticsearch)
+- [couchdb](#couchdb)
+- [hbase](#hbase)
+- [hypertable](#hypertable)
+- [accumulo](#accumulo)
+- [orientdb](#orientdb)
+- [neo4j0](#neo4j)
+- [riak](#riak)
+- [couchbase](#couchbase)
+- [scalaris](#scalaris)
+- [voltdb](#voltdb)
+- [kyoto tycoon](#kyoto-tycoon)
+- [aerospike](#aerospike)
+- [rethinkdb](#rethinkdb)
+
+## Redis ##
   
 *    Written in: C
 *    Main point: Blazing fast
@@ -35,7 +53,7 @@ Best used:
 For example:
 >To store real-time stock prices. Real-time analytics. Leaderboards. Real-time communication. And wherever you used memcached before. 
 
-## MongoDB (3.2)
+## MongoDB ##
 
 *    Written in: C++
 *    Main point: JSON document store
@@ -63,7 +81,7 @@ Best used:
 For example:
 > For most things that you would do with MySQL or PostgreSQL, but having predefined columns really holds you back. 
 
-## Cassandra (2.0)
+## Cassandra ##
 
 *    Written in: Java
 *    Main point: Store huge datasets in "almost" SQL
@@ -87,7 +105,7 @@ Best used:
 For example: 
 >Web analytics, to count hits by hour, by browser, by IP, etc. Transaction logging. Data collection from huge sensor arrays. 
 
-## ElasticSearch (0.20.1)
+## ElasticSearch ##
 
 *    Written in: Java
 *    Main point: Advanced Search
@@ -112,7 +130,7 @@ Best used:
 For example: 
 >A dating service that handles age difference, geographic location, tastes and dislikes, etc. Or a leaderboard system that depends on many variables. 
 
-## CouchDB (V1.2)
+## CouchDB ##
 
 *    Written in: Erlang
 *    Main point: DB consistency, ease of use
@@ -140,7 +158,7 @@ Best used:
 For example: 
 >CRM, CMS systems. Master-master replication is an especially interesting feature, allowing easy multi-site deployments. 
 
-## HBase (V0.92.0)
+## HBase ##
 
 *    Written in: Java
 *    Main point: Billions of rows X millions of columns
@@ -164,7 +182,7 @@ Best used:
 For example: 
 >Search engines. Analysing log data. Any place where scanning huge, two-dimensional join-less tables are a requirement. 
 
-## Hypertable (0.9.6.5)
+## Hypertable ##
 
 *    Written in: C++
 *    Main point: A faster, smaller HBase
@@ -186,7 +204,7 @@ Best used:
 For example: 
 >Same as HBase, since it's basically a replacement: Search engines. Analysing log data. Any place where scanning huge, two-dimensional join-less tables are a requirement. 
 
-## Accumulo (1.4)
+## Accumulo ##
 
 *    Written in: Java and C++
 *    Main point: A BigTable with Cell-level security
@@ -207,7 +225,7 @@ For example:
 >Same as HBase, since it's basically a replacement: Search engines. Analysing log data. Any place where scanning huge, two-dimensional join-less tables are a requirement
 
 
-## OrientDB (2.0)
+## OrientDB ##
 
 *    Written in: Java
 *    Main point: Document-based graph database
@@ -233,7 +251,7 @@ For example:
 >For searching routes in social relations, public transport links, road maps, or network topologies. 
 
 
-## Neo4j (V1.5M02)
+## Neo4j ##
 
 *    Written in: Java
 *    Main point: Graph database - connected data
@@ -259,7 +277,7 @@ Best used:
 For example: 
 >For searching routes in social relations, public transport links, road maps, or network topologies. 
 
-## Riak (V1.2)
+## Riak ##
 
 *    Written in: Erlang & C, some JavaScript
 *    Main point: Fault tolerance
@@ -283,7 +301,7 @@ Best used:
 For example: 
 >Point-of-sales data collection. Factory control systems. Places where even seconds of downtime hurt. Could be used as a well-update-able web server. 
 
-## Couchbase (ex-Membase) (2.0)
+## Couchbase ##
 
 *    Written in: Erlang & C
 *    Main point: Memcache compatible, but with persistence and clustering
@@ -305,7 +323,7 @@ Best used:
 For example: 
 >Low-latency use-cases like ad targeting or highly-concurrent web apps like online gaming (e.g. Zynga). 
 
-## Scalaris (0.5)
+## Scalaris ##
 
 *    Written in: Erlang
 *    Main point: Distributed P2P key-value store
@@ -323,7 +341,7 @@ Best used:
 For example: 
 >In an Erlang-based system when you want to give access to the DB to Python, Ruby or Java programmers. 
 
-## VoltDB (2.8.4.1)
+## VoltDB ##
 
 *    Written in: Java
 *    Main point: Fast transactions and rapidly changing data
@@ -341,7 +359,7 @@ Best used:
 For example: 
 >Point-of-sales data analysis. Factory control systems. 
 
-## Kyoto Tycoon (0.9.56)
+## Kyoto Tycoon ##
 
 *    Written in: C++
 *    Main point: A lightweight network DBM
@@ -363,7 +381,7 @@ Best used:
 For example: 
 >Caching server. Stock prices. Analytics. Real-time data collection. Real-time communication. And wherever you used memcached before. 
 
-## Aerospike (3.4.1)
+## Aerospike ##
 
 *    Written in: C
 *    Main point: Speed, SSD-optimized storage
@@ -387,7 +405,7 @@ Best used:
 For example: 
 >Storing massive amounts of profile data in online advertising or retail Web sites. 
 
-## RethinkDB (2.1)
+## RethinkDB ##
 
 *    Written in: C++
 *    Main point: JSON store that streams updates
